@@ -14,10 +14,11 @@ Start:
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     lda #0
     ldx #$FF
+    sta $FF;
 
 MemLoop:
-    sta $0,x ; stoee the val of a into 0 + x 
     dex
+    sta $0,x;
     bne MemLoop
 
 
