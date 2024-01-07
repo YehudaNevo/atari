@@ -44,4 +44,5 @@ dkms.conf
 
 # Directory for DASM
 dasm-2.20.14.1-osx-x64/
+stella/
 
